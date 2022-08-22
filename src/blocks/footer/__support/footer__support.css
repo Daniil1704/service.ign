@@ -1,0 +1,13 @@
+.footer__support {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #666666;
+}
+@media screen and (max-width: 1280px) {
+    .footer__support {
+      font-size: 14px;
+    }
+}  

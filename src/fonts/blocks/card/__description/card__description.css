@@ -1,0 +1,12 @@
+.card__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}  
+
+@media screen and (max-width: 1080px) {
+    .card__description {
+ 
+        width: 270px;
+    }
+}

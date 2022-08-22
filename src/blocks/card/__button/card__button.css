@@ -1,0 +1,22 @@
+@import url(./_link/card__button_link.css);
+.card__button {
+    font-family: 'Russo One', sans-serif;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 136px;
+    height: 53px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+}
+.card__button:hover {
+    cursor: pointer;
+    background: #0088CC;
+    color: white;
+}

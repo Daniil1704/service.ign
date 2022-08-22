@@ -1,0 +1,11 @@
+@import url(./_text/card__beta_text.css);
+@import url(./_setting/card__beta_setting.css);
+.card__beta {
+    width: 57.5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background: #FF9900;
+    border-radius: 62.5px;
+    margin-left: 10px;
+}

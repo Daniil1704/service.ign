@@ -1,0 +1,23 @@
+@import url(./__footnote/footer__footnote.css);
+@import url(./__support/footer__support.css);
+@import url(./__support/_span/footer__support_span.css);
+.footer {
+    max-width: 1680px;
+margin: 0 auto;
+padding-top: 40px;
+padding-bottom: 40px;
+display: flex;
+justify-content: space-between;
+}
+@media screen and (max-width: 1690px) {
+    .footer {
+        padding: 30px 20px 30px 20px;
+    }
+    
+}
+@media screen and (max-width: 1300px) {
+    .footer {
+        padding: 30px 95px 30px 95px;
+    }
+    
+}
