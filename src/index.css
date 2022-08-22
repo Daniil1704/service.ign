@@ -14,6 +14,22 @@
   src: url(./fonts/Roboto-Regular.woff) format('woff');
 }
 
+.card__post {
+    height: 330px;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.main_orp {
+margin: 0 auto;
+}
+
 body {
   margin: 0;
 }
@@ -83,6 +99,9 @@ p {
   }
   .dark-mode .card{
     border: 2px solid rgba(255, 255, 255, 0.15);
+  }
+  .dark-mode .card__post{
+    border: 2px solid rgba(255, 255, 255, 0.15);
   
   }
   .dark-mode .card:hover{
@@ -100,6 +119,11 @@ p {
     background-color: #252934;
     transition: background-color 0.25s ease-in-out;
     height: 100%;
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
   }
   
   .light-mode {
@@ -203,4 +227,30 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background: #0088cc;
+}
+
+.dark-mode .button__back {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+.button__back {
+  font-family: 'Russo One', sans-serif;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  width: 136px;
+  height: 53px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+}
+.button__back:hover {
+  cursor: pointer;
+  background: #0088CC;
+  color: white;
 }

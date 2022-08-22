@@ -1,6 +1,6 @@
 import React from 'react';
-import cardOmk from '../massiv/cardOmk';
-function Omk() {
+import transformationCard from '../massiv/transformationCard';
+function Transformation() {
 
 
  
@@ -8,10 +8,13 @@ function Omk() {
 
 
     return (
-      <div className='card__list'>
-  { cardOmk.map((card, key) =>{
-
+    
+       <div className='card__list'>
+    
+  { transformationCard.map((card, key) =>{
+      
     return   <div className='card' key={key}>
+      
     <div className='card__description' >
       <div className="card__info">
         <h2 className='card__title'>{card.title}</h2>
@@ -29,7 +32,8 @@ function Omk() {
      })
      }
      </div>
+     
     )
     }
 
-export default Omk;
+export default Transformation;
