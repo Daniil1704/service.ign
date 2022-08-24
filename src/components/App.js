@@ -8,6 +8,7 @@ import Footer from './Footer';
 import LinkHub from './LinkHub';
 import Omk from '../pages/Omk';
 import Orp from '../pages/Orp';
+import Pok from '../pages/Pok';
 import Transformation from '../pages/Transformation';
 const App = () => {
 
@@ -42,6 +43,7 @@ const App = () => {
         <Route path='/omk' element={<Omk />} />
         <Route path='/orp' element={<Orp />} />
         <Route path='/transformation' element={<Transformation />} />
+        <Route path='/pok' element={<Pok />} />
       </Routes>
       <Footer />
     </BrowserRouter>

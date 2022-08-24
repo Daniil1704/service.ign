@@ -8,7 +8,7 @@ const transformationCard = [
   {
     title: "Материралы комитетов по Трансформации",
     text: "",
-    link: '/omk',
+    link: '/pok',
     status: "production"
   },
   {
