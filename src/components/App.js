@@ -10,6 +10,8 @@ import Omk from '../pages/Omk';
 import Orp from '../pages/Orp';
 import Pok from '../pages/Pok';
 import Transformation from '../pages/Transformation';
+import Academy from '../pages/Academy';
+import Vks from '../pages/Vks';
 const App = () => {
 
   var userState = JSON.parse(localStorage.getItem("LinkHub_UserTheme")); // присвоили прочитанное значение
@@ -44,6 +46,8 @@ const App = () => {
         <Route path='/orp' element={<Orp />} />
         <Route path='/transformation' element={<Transformation />} />
         <Route path='/pok' element={<Pok />} />
+        <Route path='/academy' element={<Academy />} />
+        <Route path='/vks' element={<Vks />} />
       </Routes>
       <Footer />
     </BrowserRouter>

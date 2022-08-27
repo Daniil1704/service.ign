@@ -2,38 +2,32 @@ const cardOrp = [
   {
     title: "План обучения",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '',
   },
   {
     title: "Запрос на включение в план обучения",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '',
   },
   {
     title: "Наши партнеры",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '',
   },
   {
     title: "Академия Норникель",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '/academy',
   },
   {
     title: "Цифроникель",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '',
   },
   {
     title: "Сервисы УОИМ",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '',
   }
 ]
 export default cardOrp;

@@ -26,6 +26,62 @@
     grid-column-start: 1;
     grid-column-end: 4;
 }
+.card_academy {
+  height: 330px;
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card__vks {
+  height: 140px;
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.card__info_vks {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dark-mode .card__vks  {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+.dark-mode .card__post_academy  {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+.dark-mode .card_academy {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+.card__list_academy {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+  max-width: 1690px;
+  margin: 0 auto;
+}
+
+.card__post_academy {
+  height: 330px;
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 
 .card__pok {
   height: 140px;
@@ -105,6 +161,9 @@ p {
     width: 136px;
     height: 53px;
     margin-top: 20px;
+}
+.card__margin {
+  margin-right: 10px;
 }
   .card__info_pok {
     margin-top: 20px;

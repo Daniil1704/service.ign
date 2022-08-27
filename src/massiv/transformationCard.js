@@ -2,20 +2,17 @@ const transformationCard = [
   {
     title: "Установочные документы Трансформации",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '',
   },
   {
     title: "Материралы комитетов по Трансформации",
     text: "",
     link: '/pok',
-    status: "production"
   },
   {
     title: "Материалы ВКС по Трансформации",
     text: "",
-    link: '/omk',
-    status: "production"
+    link: '/vks',
   }
 ]
 export default transformationCard;
